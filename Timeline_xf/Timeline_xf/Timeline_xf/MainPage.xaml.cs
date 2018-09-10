@@ -12,6 +12,11 @@ namespace Timeline_xf
 		public MainPage()
 		{
 			InitializeComponent();
+            BindingContext = DataFactory.Classes;
 		}
-	}
+        private void timelineListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            timelineListView.SelectedItem = null;
+        }
+    }
 }

@@ -128,4 +128,7 @@
       <Name>Timeline_xf</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\spor.jpg" />
+  </ItemGroup>
 </Project>
